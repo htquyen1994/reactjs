@@ -10,6 +10,11 @@ import EventBinding from './EventBinding/EventBinding';
 import DemoState from './State/DemoState';
 import BaiTapChonXe from './State/BaiTapChonXe';
 import RenderWithMap from './RenderWithMap/RenderWithMap';
+import DemoProps from './Props/DemoProps/DemoProps';
+import BTProductList from './Props/BTDanhSachSP/BTProductList';
+import Shop from './ReduxExcersice/CartRedux/Shop';
+import BTGameXucXac from './ReduxExcersice/BTGameXucSac/BTGameXucXac';
+import LifeCycle from './LifeCycle/LifeCycle';
 
 function App() {
   return (
@@ -22,9 +27,16 @@ function App() {
         {/* <EventBinding /> */}
         {/* <DemoState /> */}
         {/* <BaiTapChonXe /> */}
-        <RenderWithMap />
+        {/* <RenderWithMap /> */}
+        {/* <DemoProps/> */}
+        {/* <BTProductList></BTProductList> */}
+        {/* <Shop/> */}
+        {/* <BTGameXucXac/> */}
+        <LifeCycle/>
     </div>
   );
+
+
 }
 
 export default App;
